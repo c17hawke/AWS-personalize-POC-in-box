@@ -7,8 +7,8 @@ Parameters:
 
   NotebookName:
     Type: String
-    Default: PersonalizePOC
-    Description: Enter the name of the SageMaker notebook instance. Deafault is PersonalizePOC.
+    Default: PersonalizePOC-by-Sunny
+    Description: Enter the name of the SageMaker notebook instance. Default is PersonalizePOC.
 
   VolumeSize:
     Type: Number
@@ -46,4 +46,4 @@ Resources:
       NotebookInstanceName: !Ref NotebookName
       RoleArn: !GetAtt SageMakerIamRole.Arn
       VolumeSizeInGB: !Ref VolumeSize
-      DefaultCodeRepository: https://github.com/aws-samples/amazon-personalize-samples.git 
+      DefaultCodeRepository: https://github.com//c17hawke/AWS-personalize-POC-in-box.git 
