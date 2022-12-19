@@ -7,7 +7,7 @@ Parameters:
 
   NotebookName:
     Type: String
-    Default: PersonalizePOC-by-Sunny
+    Default: PersonalizePOC-by-SBC-19122022
     Description: Enter the name of the SageMaker notebook instance. Default is PersonalizePOC.
 
   VolumeSize:
