@@ -62,7 +62,7 @@ Follow along with the screenshots below if you have any questions about deployin
 
 Start by clicking `Next` at the bottom like this:
 
-![StackWizard](static/imgs/img1.png)
+![StackWizard](img/img1.png)
 
 On this page you have a few tasks:
 
@@ -73,37 +73,37 @@ On this page you have a few tasks:
 
 When you are done click `Next` at the bottom.
 
-![StackWizard2](static/imgs/img2.png)
+![StackWizard2](img/img2.png)
 
 This page is a bit longer, so scroll to the bottom to click `Next`. All of the defaults should be sufficient to complete the POC, if you have custom requirements, alter as necessary.
 
-![StackWizard3](static/imgs/img3.png)
+![StackWizard3](img/img3.png)
 
 
 Again scroll to the bottom, check the box to enable the template to create new IAM resources and then click `Create Stack`.
 
-![StackWizard4](static/imgs/img4.png)
+![StackWizard4](img/img4.png)
 
 For a few minutes CloudFormation will be creating the resources described above on your behalf it will look like this while it is provisioning:
 
-![StackWizard5](static/imgs/img5.png)
+![StackWizard5](img/img5.png)
 
 Once it has completed you'll see green text like below indicating that the work has been completed:
 
-![StackWizard5](static/imgs/img6.png)
+![StackWizard5](img/img6.png)
 
 Now that your environment has been created go to the service page for SageMaker by clicking `Services` in the top of the console and then searching for `SageMaker` and clicking the service.
 
 
-![StackWizard5](static/imgs/img7.png)
+![StackWizard5](img/img7.png)
 
 From the SageMaker console, scroll until you see the green box indicating now many notebooks you have in service and click that.
 
-![StackWizard5](static/imgs/img8.png)
+![StackWizard5](img/img8.png)
 
 On this page you will see a list of any SageMaker notebooks you have running, simply click the `Open JupyterLab` link on the Personalize POC notebook you have created
 
-![StackWizard5](static/imgs/img9.png)
+![StackWizard5](img/img9.png)
 
 This will open the Jupyter environment for your POC; think of it as a web based data science IDE if you are not familiar with it. It should automatically open the `PersonalizePOC` folder for you, if not, just click on the folder icon in the browser on the left side of the screen and follow the documentation below to get started with your POC!
 
