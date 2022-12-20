@@ -1,6 +1,6 @@
 # AWS-personalize-POC-in-box
 
-Reference from - https://github.com/aws-samples/amazon-personalize-samples/tree/master/next_steps/workshops/POC_in_a_box
+Reference from - [amazon-personalize-samples PoC in a box](https://github.com/aws-samples/amazon-personalize-samples/tree/master/next_steps/workshops/POC_in_a_box)
 
 ## Personalize POC Guide
 
